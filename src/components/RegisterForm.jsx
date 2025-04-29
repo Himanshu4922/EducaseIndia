@@ -32,7 +32,7 @@ function RegisterForm() {
     password: [
       {
         length: 6,
-        message: "Please enter a password of atleast 6 characters",
+        message: "Your password must contain atleast 6 characters",
       },
     ],
     companyName: [],

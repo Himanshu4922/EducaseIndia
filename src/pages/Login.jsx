@@ -16,7 +16,7 @@ function Login() {
     password: [
       {
         length: 6,
-        message: "Please enter a password of atleast 8 characters",
+        message: "Your password must contain atleast 6 characters",
       },
     ],
   };
@@ -30,7 +30,7 @@ function Login() {
           errorsData[key] = rule.message;
           return true;
         }
-        if (key === "password" && rule.length && value.length < 8) {
+        if (key === "password" && rule.length && value.length < 6) {
           errorsData[key] = rule.message;
           return true;
         }
