@@ -2,11 +2,10 @@ import { useEffect } from "react";
 import userImg from "../assets/userImg.png";
 import cameraIconImg from "../assets/cameraIconImg.svg";
 
-useEffect(function () {
-  window.scrollTo(0, 0);
-}, []);
-
 function Home() {
+  useEffect(function () {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="bg-[#F7F8F9] min-h-screen max-w-[375px] m-auto border border-[#CBCBCB]">
       <h1 className="text-[#1D2226] text-[18px] bg-white shadow-[0_3px_6px_0px_#00000007] px-[15px] py-[19px] font-rubik ">
