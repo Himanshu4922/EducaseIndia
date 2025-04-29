@@ -1,6 +1,10 @@
-import React from "react";
+import { useEffect } from "react";
 import userImg from "../assets/userImg.png";
 import cameraIconImg from "../assets/cameraIconImg.svg";
+
+useEffect(function () {
+  window.scrollTo(0, 0);
+}, []);
 
 function Home() {
   return (

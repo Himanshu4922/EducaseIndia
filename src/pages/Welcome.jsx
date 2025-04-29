@@ -1,8 +1,12 @@
-import React from "react";
+import { useEffect } from "react";
 import { useNavigate } from "react-router";
 
 function Welcome() {
   const navigate = useNavigate();
+
+  useEffect(function () {
+    window.scrollTo(0, 0);
+  }, []);
 
   function handleCreateAccount() {
     navigate("/register");
