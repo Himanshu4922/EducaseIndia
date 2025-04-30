@@ -72,7 +72,7 @@ function Login() {
   return (
     <>
       <form
-        className="flex flex-col px-5 py-10 min-h-screen max-w-[375px] m-auto bg-[#F7F8F9] font-rubik border border-[#CBCBCB]"
+        className="flex flex-col px-5 py-10 min-h-screen max-w-[430px] m-auto bg-[#F7F8F9] font-rubik border border-[#CBCBCB]"
         onSubmit={handleSubmit}
       >
         <h2 className="text-[28px] font-bold font-rubik">

@@ -16,7 +16,7 @@ function Welcome() {
   }
   return (
     <>
-      <div className="flex flex-col py-[41px] px-5 min-h-screen justify-end font-rubik bg-[#F7F8F9] max-w-[375px] m-auto border border-[#CBCBCB]">
+      <div className="flex flex-col py-[41px] px-5 min-h-screen justify-end font-rubik bg-[#F7F8F9] max-w-[430px] m-auto border border-[#CBCBCB]">
         <h2 className="text-[28px] font-bold font-rubik text-[#1D2226]">
           Welcome to PopX
         </h2>

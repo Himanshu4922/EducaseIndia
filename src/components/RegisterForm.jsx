@@ -99,7 +99,7 @@ function RegisterForm() {
   return (
     <>
       <form
-        className="py-10 px-5 flex flex-col justify-between min-h-screen max-w-[375px] m-auto bg-[#F7F8F9] font-rubik border border-[#CBCBCB]"
+        className="py-10 px-5 flex flex-col justify-between min-h-screen max-w-[430px] m-auto bg-[#F7F8F9] font-rubik border border-[#CBCBCB]"
         onSubmit={handleSubmit}
       >
         <div>
